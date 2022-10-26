@@ -49,7 +49,8 @@
   padding: 0px;
 }
 
-.task-items, .name-list {
+.task-items, 
+.name-list {
   list-style: none;
 }
 
@@ -156,7 +157,8 @@
 }
 
 /* Edit Task */
-.task-items-input {
+.task-items-input,
+.edit-mode .task-items-label {
     display: none;
 }
 
@@ -169,6 +171,3 @@
   width: 224px;
 }
 
-.edit-mode .task-items-label{
-  display: none;
-}
